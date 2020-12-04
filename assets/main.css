@@ -1,0 +1,31 @@
+
+@keyframes christmas_extension_flake_fall {
+  from {
+    transform: translateY(-10vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.christmas_extension_flake {
+  display: block;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  color: rgb(160, 198, 255);
+  animation: christmas_extension_flake_fall 5s linear forwards infinite;
+  animation-delay: 0s;
+  font-size: 30px;
+}
+
+.christmas_extension_flake.hide_christmas_flake {
+  opacity: 0 !important;
+  width: 0;
+  height: 0;
+}
+
+.christmas_extension_flake::before {
+  content: '\2744';
+}
