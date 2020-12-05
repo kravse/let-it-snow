@@ -18,6 +18,7 @@
   animation: christmas_extension_flake_fall 5s linear forwards infinite;
   animation-delay: 0s;
   font-size: 30px;
+  pointer-events: none;
 }
 
 .christmas_extension_flake.hide_christmas_flake {
