@@ -1,7 +1,7 @@
 
 @keyframes christmas_extension_flake_fall {
   from {
-    transform: translateY(-10vh);
+    transform: translateY(-15vh);
   }
   to {
     transform: translateY(100vh);

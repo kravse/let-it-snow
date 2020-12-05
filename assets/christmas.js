@@ -5,10 +5,11 @@
   document.body.append(flake);
 
   function createFlake() {
-    const clone = flake.cloneNode(true);
-    clone.style.left = Math.random() * 100 + "%";
-    clone.style.fontSize = Math.floor(Math.random() * (30 - 11) + 10) +"px";
-    document.body.append(clone);
+    const snow = flake.cloneNode(true);
+    snow.style.left = Math.random() * 100 + "%";
+    snow.style.fontSize = Math.floor(Math.random() * (30 - 11) + 10) +"px";
+    snow.style.animationDuration = (Math.random() * 5) + 4 + "s";
+    document.body.append(snow);
   }
 
   function hideFlakes(hide) {
