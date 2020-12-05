@@ -30,7 +30,6 @@
   }
   let storage = await browser.storage.local.get('disabled');
   let disabled = storage.disabled;
-  console.info(storage)
   startSnow();
   console.log
   if (disabled) {
