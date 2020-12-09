@@ -4,6 +4,6 @@
 
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/let-it-snow-addon/) 
 
-[Chrome - PENDING APPROVAL]()
+[Chrome](https://chrome.google.com/webstore/detail/let-it-snow/himjfahoodiglodlcapifigneoepnkbk)
 
 ![let it snow](./assets/let-it-snow.gif)
